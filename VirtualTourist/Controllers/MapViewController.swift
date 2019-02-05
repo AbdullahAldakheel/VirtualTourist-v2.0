@@ -145,6 +145,9 @@ extension MapViewController: MKMapViewDelegate{
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "myVCID") as! ImagesViewController
             let tmp = self.pin.first(where: { $0.lat == view.annotation?.coordinate.latitude && $0.long == view.annotation?.coordinate.longitude})
+            guard tmp != nil else {
+                return
+            }
             vc.pin = tmp
             navigationController?.pushViewController(vc, animated: true)
         }
