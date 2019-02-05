@@ -160,14 +160,8 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qzg-OP-7AT">
                                 <rect key="frame" x="44" y="44" width="808" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="85k-qG-SEQ"/>
-                                    <constraint firstAttribute="height" constant="100" id="QRr-ys-Hra"/>
+                                    <constraint firstAttribute="height" constant="100" id="FQe-Nn-rfT"/>
                                 </constraints>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <exclude reference="85k-qG-SEQ"/>
-                                    </mask>
-                                </variation>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
