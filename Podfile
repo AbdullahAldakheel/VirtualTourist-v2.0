@@ -4,5 +4,4 @@ use_frameworks!
 
 target 'VirtualTouristV10' do
 
-pod 'Firebase/Core'
 end

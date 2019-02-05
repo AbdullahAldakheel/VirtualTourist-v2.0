@@ -21,7 +21,6 @@
 		ECC20E3221FB466B00500C73 /* VirtualTouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC20E3121FB466B00500C73 /* VirtualTouristTests.swift */; };
 		ECC82DAA2205C4040096DF49 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC82DA82205C4040096DF49 /* ImagesViewController.swift */; };
 		ECC82DAD2205CFAB0096DF49 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC82DAC2205CFAB0096DF49 /* PhotoViewCell.swift */; };
-		ED06AFFDA9BAE44AAD7ABBFA /* Pods_VirtualTouristV10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8613ECE0BAAAAB974BD77351 /* Pods_VirtualTouristV10.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		144B2329E7A2F786BF7E50FD /* Pods-VirtualTouristV10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristV10.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTouristV10/Pods-VirtualTouristV10.release.xcconfig"; sourceTree = "<group>"; };
 		29CD045DB40B8D2415A8F49E /* Pods-VirtualTouristV10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtualTouristV10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtualTouristV10/Pods-VirtualTouristV10.debug.xcconfig"; sourceTree = "<group>"; };
-		8613ECE0BAAAAB974BD77351 /* Pods_VirtualTouristV10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtualTouristV10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC414A9C220272AF000736CF /* Vr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vr.xcdatamodel; sourceTree = "<group>"; };
 		EC414AA0220371E1000736CF /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		EC414AA4220395C7000736CF /* RJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJson.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED06AFFDA9BAE44AAD7ABBFA /* Pods_VirtualTouristV10.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +86,6 @@
 		CEDA772D4A982FA5409E93E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8613ECE0BAAAAB974BD77351 /* Pods_VirtualTouristV10.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,7 +191,6 @@
 				ECC20E1521FB466900500C73 /* Sources */,
 				ECC20E1621FB466900500C73 /* Frameworks */,
 				ECC20E1721FB466900500C73 /* Resources */,
-				BC66A0E03CCB49EAA8A9209E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,30 +299,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC66A0E03CCB49EAA8A9209E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTouristV10/Pods-VirtualTouristV10-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtualTouristV10/Pods-VirtualTouristV10-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
